@@ -7,6 +7,11 @@
 //
 
 import UIKit
+import KYDrawerController
+import IQKeyboardManagerSwift
+import GoogleMaps
+import GooglePlaces
+import GoogleSignIn
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,33 +19,85 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions
+        launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        showFirstController()
+        IQKeyboardManager.shared.enable = true
+        GMSServices.provideAPIKey("AIzaSyBGSAUhiZ7hlffCv7FnHou2Q4klOO6AOkQ")
+        GMSPlacesClient.provideAPIKey("AIzaSyBGSAUhiZ7hlffCv7FnHou2Q4klOO6AOkQ")
+        GIDSignIn.sharedInstance().clientID = "730913208094-kd59g77garastu984l6u2ufqq31sps3o.apps.googleusercontent.com"
         return true
     }
 
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        return GIDSignIn.sharedInstance().handle(url as URL?,
+                                                 sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String,
+                                                 annotation: options[UIApplication.OpenURLOptionsKey.annotation])
+    }
+    
     func applicationWillResignActive(_ application: UIApplication) {
-        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-        // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+        
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
-        // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-        // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+        
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
-        // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+        
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {
-        // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
-        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+        
     }
 
 
 }
 
+extension AppDelegate {
+    private func showFirstController() {
+        if User.shared.token == "" || User.shared.token == nil {
+            showLoginScreen()
+        } else {
+            showHomeScreen()
+        }
+    }
+    
+    private func showLoginScreen() {
+        let loginViewController = LoginCoordinator.createLoginViewController()
+        let nav = UINavigationController(rootViewController: loginViewController)
+        nav.isNavigationBarHidden = true
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = nav
+        window?.makeKeyAndVisible()
+    }
+    
+    private func showHomeScreen() {
+        let width = UIScreen.main.bounds.width - 50
+        let mainViewController   = HomeCoordinator.createHomeViewController()
+        let drawerViewController = SideMenuCoordinator.createSideMenuViewController()
+        let drawerController     = KYDrawerController(drawerDirection: .left,
+                                                      drawerWidth: width)
+        drawerController.mainViewController = UINavigationController(
+            rootViewController: mainViewController
+        )
+        drawerController.drawerViewController = drawerViewController
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = drawerController
+        window?.makeKeyAndVisible()
+    }
+}
+
+extension AppDelegate: GIDSignInDelegate {
+    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
+        
+    }
+    
+    
+}

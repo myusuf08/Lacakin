@@ -1,0 +1,14 @@
+//
+//  ActivityListRequest.swift
+//  Lacakin
+//
+//  Created by Muhammad Yusuf on 20/02/19.
+//  Copyright © 2019 Gamatechno. All rights reserved.
+//
+
+import Foundation
+
+public struct ActivityListRequest: Codable {
+    let page: Int?
+    let view: Int?
+}

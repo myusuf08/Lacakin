@@ -1,0 +1,120 @@
+PODS:
+  - Alamofire (4.8.2)
+  - CocoaAsyncSocket (7.6.3)
+  - CocoaMQTT (1.1.3):
+    - CocoaAsyncSocket (~> 7.6.3)
+  - GoogleMaps (3.1.0):
+    - GoogleMaps/Maps (= 3.1.0)
+  - GoogleMaps/Base (3.1.0)
+  - GoogleMaps/Maps (3.1.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.1.0):
+    - GoogleMaps/Base (= 3.1.0)
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.0):
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - GoogleToolboxForMac/Defines (2.2.0)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.0)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.0)
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.0)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.0)"
+  - GrowingTextView (0.6.1)
+  - GSImageViewerController (1.6.0)
+  - GTMSessionFetcher/Core (1.2.1)
+  - IQKeyboardManagerSwift (6.2.1)
+  - Kingfisher (5.3.1)
+  - KYDrawerController (2.1.0)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - Moya/RxSwift (12.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - NotificationView (0.2.0)
+  - Polyline (4.2.1)
+  - Realm (3.14.1):
+    - Realm/Headers (= 3.14.1)
+  - Realm/Headers (3.14.1)
+  - RealmSwift (3.14.1):
+    - Realm (= 3.14.1)
+  - Result (4.1.0)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
+  - SwiftyUserDefaults (4.0.0-alpha.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8.1)
+  - CocoaMQTT
+  - GoogleMaps
+  - GooglePlaces
+  - GoogleSignIn
+  - GrowingTextView (= 0.6.1)
+  - GSImageViewerController
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - KYDrawerController
+  - Moya/RxSwift (~> 12.0.1)
+  - NotificationView
+  - Polyline (~> 4.0)
+  - RealmSwift
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
+  - SwiftyUserDefaults (= 4.0.0-alpha.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CocoaAsyncSocket
+    - CocoaMQTT
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GrowingTextView
+    - GSImageViewerController
+    - GTMSessionFetcher
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - KYDrawerController
+    - Moya
+    - NotificationView
+    - Polyline
+    - Realm
+    - RealmSwift
+    - Result
+    - RxCocoa
+    - RxSwift
+    - SwiftyUserDefaults
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  CocoaMQTT: b506d38ad3bbe1c55a4f8ee8c9fd02c35da1a7d8
+  GoogleMaps: 5c13302e6fe6bb6e686b267196586b91cd594225
+  GooglePlaces: e874db179f2675c4f3eeda0b686b540273a578b0
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
+  GrowingTextView: 335aefa45df7df06b01edede1363414d6ee5d6bc
+  GSImageViewerController: 397f8954afac8bd1c3a75c630e3c4ab4c4a4dfe3
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  IQKeyboardManagerSwift: 0f0ae8935360b4003e6ea1ac7c19898f01e2f7c7
+  Kingfisher: d9e7e0b209b59b8f9873aa2f37654e81a7beea51
+  KYDrawerController: baad0e63b09c0cb564bd48f0f7f70f45d9176ebc
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  NotificationView: 7b41deaecc9a52005403cac88c3439a77c58437f
+  Polyline: 0e9890790292741c8186201a536b6bb6a78d02dd
+  Realm: e12c9c2387d05c5bba3a9c394838f5870e85763b
+  RealmSwift: a82eab9b04c3e1616082c7e17aa300740847769c
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SwiftyUserDefaults: f4b2b375134ead8646eba62e5e1d6271068f75f0
+
+PODFILE CHECKSUM: 4d116a747b6e27bb9d051fbb6444b168dd5b7946
+
+COCOAPODS: 1.6.1

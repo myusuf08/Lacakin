@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="metropolisbold.otf">
+            <string>Metropolis-Bold</string>
+        </array>
+        <array key="metropolisregular.otf">
+            <string>Metropolis-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="234" id="7mM-RK-nqt" customClass="OthersTableViewCell" customModule="Lacakin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="234"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7mM-RK-nqt" id="Kr7-1i-lG9">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="233.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uqi-sE-47M">
+                        <rect key="frame" x="10" y="10" width="300" height="213.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="common_avatar" translatesAutoresizingMaskIntoConstraints="NO" id="GLi-Uh-Ktj">
+                        <rect key="frame" x="26" y="16" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="gFO-Ts-fLz"/>
+                            <constraint firstAttribute="width" constant="40" id="oDh-ho-EDA"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOw-mg-Juq">
+                        <rect key="frame" x="82" y="16" width="212" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="uZz-sW-62e"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pkU-AZ-chM">
+                        <rect key="frame" x="82" y="36" width="212" height="11"/>
+                        <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="11"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="a" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XuA-aL-kLj">
+                        <rect key="frame" x="26" y="71" width="268" height="17"/>
+                        <fontDescription key="fontDescription" name="Metropolis-Bold" family="Metropolis" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.71372549019999998" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="a" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="akW-az-64W">
+                        <rect key="frame" x="26" y="98" width="268" height="11"/>
+                        <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="PMn-Ix-Ae5">
+                        <rect key="frame" x="26" y="119" width="268" height="70"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="UBL-OY-bOc"/>
+                        </constraints>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Oww-Jk-KJF">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <connections>
+                            <outlet property="dataSource" destination="7mM-RK-nqt" id="fI9-0u-Esx"/>
+                            <outlet property="delegate" destination="7mM-RK-nqt" id="EP4-c1-2Yf"/>
+                        </connections>
+                    </collectionView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 Like" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zeo-Xb-32u">
+                        <rect key="frame" x="26" y="204" width="38" height="13"/>
+                        <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="13"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 Comment" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OgF-QW-A74">
+                        <rect key="frame" x="220.5" y="204" width="73.5" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="Mrd-0j-Kc5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="13"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Approved  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIy-Th-gaW">
+                        <rect key="frame" x="82" y="50" width="64" height="15"/>
+                        <color key="backgroundColor" red="0.1593135893" green="0.7161665559" blue="0.080852605399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="Phx-3H-lGh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="11"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eAg-MV-oce">
+                        <rect key="frame" x="156" y="57.5" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="11"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="akW-az-64W" firstAttribute="leading" secondItem="XuA-aL-kLj" secondAttribute="leading" id="6jC-UL-uHN"/>
+                    <constraint firstItem="XuA-aL-kLj" firstAttribute="top" secondItem="GLi-Uh-Ktj" secondAttribute="bottom" constant="15" id="8lA-i1-buW"/>
+                    <constraint firstItem="eAg-MV-oce" firstAttribute="centerY" secondItem="MIy-Th-gaW" secondAttribute="centerY" id="8vl-Q7-286"/>
+                    <constraint firstAttribute="bottom" secondItem="Uqi-sE-47M" secondAttribute="bottom" constant="10" id="CX2-tQ-SRR"/>
+                    <constraint firstItem="uOw-mg-Juq" firstAttribute="top" secondItem="GLi-Uh-Ktj" secondAttribute="top" id="Cfg-cE-N75"/>
+                    <constraint firstItem="zeo-Xb-32u" firstAttribute="leading" secondItem="PMn-Ix-Ae5" secondAttribute="leading" id="Cia-HE-DRy"/>
+                    <constraint firstAttribute="trailing" secondItem="uOw-mg-Juq" secondAttribute="trailing" constant="26" id="EyY-Ak-H3b"/>
+                    <constraint firstAttribute="trailing" secondItem="XuA-aL-kLj" secondAttribute="trailing" constant="26" id="Mmn-q4-bqc"/>
+                    <constraint firstItem="Uqi-sE-47M" firstAttribute="top" secondItem="Kr7-1i-lG9" secondAttribute="top" constant="10" id="Mp5-z1-5qf"/>
+                    <constraint firstItem="akW-az-64W" firstAttribute="top" secondItem="XuA-aL-kLj" secondAttribute="bottom" constant="10" id="RYv-ny-Vrk"/>
+                    <constraint firstItem="pkU-AZ-chM" firstAttribute="trailing" secondItem="uOw-mg-Juq" secondAttribute="trailing" id="RwH-ZK-FdJ"/>
+                    <constraint firstItem="uOw-mg-Juq" firstAttribute="leading" secondItem="GLi-Uh-Ktj" secondAttribute="trailing" constant="16" id="Sc8-Cb-sWT"/>
+                    <constraint firstAttribute="bottom" secondItem="zeo-Xb-32u" secondAttribute="bottom" constant="16.5" id="Sic-Vf-8di"/>
+                    <constraint firstItem="GLi-Uh-Ktj" firstAttribute="top" secondItem="Kr7-1i-lG9" secondAttribute="top" constant="16" id="TK2-lj-JVw"/>
+                    <constraint firstItem="GLi-Uh-Ktj" firstAttribute="leading" secondItem="Kr7-1i-lG9" secondAttribute="leading" constant="26" id="TZs-jf-ei1"/>
+                    <constraint firstItem="MIy-Th-gaW" firstAttribute="top" secondItem="pkU-AZ-chM" secondAttribute="bottom" constant="3" id="TuC-8N-7FD"/>
+                    <constraint firstAttribute="trailing" secondItem="Uqi-sE-47M" secondAttribute="trailing" constant="10" id="VKw-yT-RkS"/>
+                    <constraint firstItem="PMn-Ix-Ae5" firstAttribute="trailing" secondItem="akW-az-64W" secondAttribute="trailing" id="XT4-YJ-YRB"/>
+                    <constraint firstItem="PMn-Ix-Ae5" firstAttribute="top" secondItem="akW-az-64W" secondAttribute="bottom" constant="10" id="YHh-zU-O1c"/>
+                    <constraint firstItem="pkU-AZ-chM" firstAttribute="top" secondItem="uOw-mg-Juq" secondAttribute="bottom" id="dw8-Ki-GLv"/>
+                    <constraint firstItem="XuA-aL-kLj" firstAttribute="leading" secondItem="GLi-Uh-Ktj" secondAttribute="leading" id="hen-tm-lvA"/>
+                    <constraint firstItem="PMn-Ix-Ae5" firstAttribute="leading" secondItem="akW-az-64W" secondAttribute="leading" id="ikc-0t-Pr8"/>
+                    <constraint firstItem="Uqi-sE-47M" firstAttribute="leading" secondItem="Kr7-1i-lG9" secondAttribute="leading" constant="10" id="mDP-Av-8Os"/>
+                    <constraint firstItem="akW-az-64W" firstAttribute="trailing" secondItem="XuA-aL-kLj" secondAttribute="trailing" id="mPL-T3-3eM"/>
+                    <constraint firstItem="OgF-QW-A74" firstAttribute="top" secondItem="zeo-Xb-32u" secondAttribute="top" id="pHu-7r-Fa8"/>
+                    <constraint firstItem="eAg-MV-oce" firstAttribute="leading" secondItem="MIy-Th-gaW" secondAttribute="trailing" constant="10" id="sv6-k0-PDj"/>
+                    <constraint firstItem="zeo-Xb-32u" firstAttribute="top" secondItem="PMn-Ix-Ae5" secondAttribute="bottom" constant="15" id="uuK-KG-Dzv"/>
+                    <constraint firstItem="MIy-Th-gaW" firstAttribute="leading" secondItem="pkU-AZ-chM" secondAttribute="leading" id="wY4-WF-RQB"/>
+                    <constraint firstItem="pkU-AZ-chM" firstAttribute="leading" secondItem="uOw-mg-Juq" secondAttribute="leading" id="yB5-mU-u3T"/>
+                    <constraint firstItem="OgF-QW-A74" firstAttribute="trailing" secondItem="PMn-Ix-Ae5" secondAttribute="trailing" id="z7V-FF-5Tw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="elj-cE-bnQ"/>
+            <connections>
+                <outlet property="bgView" destination="Uqi-sE-47M" id="kGM-RI-Aho"/>
+                <outlet property="collectionView" destination="PMn-Ix-Ae5" id="lOj-bN-xKn"/>
+                <outlet property="comentLabel" destination="OgF-QW-A74" id="e7E-VI-MDF"/>
+                <outlet property="dateTimeLabel" destination="pkU-AZ-chM" id="ZgR-DF-ApQ"/>
+                <outlet property="descriptionLabel" destination="akW-az-64W" id="1Ms-8m-AKx"/>
+                <outlet property="heightCollectionViewConstraint" destination="UBL-OY-bOc" id="yuN-BL-mHw"/>
+                <outlet property="likeLabel" destination="zeo-Xb-32u" id="cvR-Ew-B6q"/>
+                <outlet property="statusDateLabel" destination="eAg-MV-oce" id="vod-0F-WeE"/>
+                <outlet property="statusLabel" destination="MIy-Th-gaW" id="BwZ-Ph-X9f"/>
+                <outlet property="titleLabel" destination="XuA-aL-kLj" id="E5k-rv-wGT"/>
+                <outlet property="userImageView" destination="GLi-Uh-Ktj" id="VgK-ZE-lsZ"/>
+                <outlet property="usernameLabel" destination="uOw-mg-Juq" id="eTB-3t-oV7"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="73.763118440779621"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="common_avatar" width="20" height="20"/>
+    </resources>
+</document>

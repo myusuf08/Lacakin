@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="metropolisregular.otf">
+            <string>Metropolis-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="150" id="KGk-i7-Jjw" customClass="ActivityDescTableViewCell" customModule="Lacakin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="149.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lmV-uE-BWQ">
+                        <rect key="frame" x="16" y="0.0" width="288" height="149.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RYY-IF-z7W">
+                        <rect key="frame" x="21" y="11" width="278" height="128"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="Metropolis-Regular" family="Metropolis" pointSize="15"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                </subviews>
+                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                <constraints>
+                    <constraint firstItem="lmV-uE-BWQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="5dw-x3-ddY"/>
+                    <constraint firstAttribute="bottom" secondItem="lmV-uE-BWQ" secondAttribute="bottom" id="Bd7-8A-8w9"/>
+                    <constraint firstItem="RYY-IF-z7W" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="21" id="I7g-4R-4iL"/>
+                    <constraint firstAttribute="trailing" secondItem="RYY-IF-z7W" secondAttribute="trailing" constant="21" id="SMF-gx-SHL"/>
+                    <constraint firstAttribute="trailing" secondItem="lmV-uE-BWQ" secondAttribute="trailing" constant="16" id="UUS-hn-33u"/>
+                    <constraint firstItem="lmV-uE-BWQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="aPI-uW-4dJ"/>
+                    <constraint firstAttribute="bottom" secondItem="RYY-IF-z7W" secondAttribute="bottom" constant="10.5" id="kq8-gd-OYq"/>
+                    <constraint firstItem="RYY-IF-z7W" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="nNP-ms-vqb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bgView" destination="lmV-uE-BWQ" id="Ndz-aM-7m3"/>
+                <outlet property="descTextView" destination="RYY-IF-z7W" id="1oa-Ag-v4I"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="120.53973013493254"/>
+        </tableViewCell>
+    </objects>
+</document>
