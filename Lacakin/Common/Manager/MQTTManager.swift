@@ -55,6 +55,7 @@ extension MQTTManager {
         mqtt!.keepAlive = 60
         mqtt!.delegate = self
         mqtt!.connect()
+        
     }
 
     func TRACE(_ message: String = "", fun: String = #function) {
