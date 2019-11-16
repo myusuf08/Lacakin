@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 extension String {
-    static let BaseUrl = "https://app.lacakin.id/"
+    static let BaseUrl = "https://app.lacakinn.id"//"https://app.lacakin.id/"
     // live "https://app.lacakin.id/"
     // dev "https://demo.pickpoint.me:6777/"
     static let BaseApiUrl = "\(BaseUrl)v4.0"

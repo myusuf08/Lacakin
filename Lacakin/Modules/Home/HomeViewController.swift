@@ -64,8 +64,13 @@ class HomeViewController: BaseViewController {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews() //tvxyz
-        initScrollView()
-        initEventScrollView()
+        var alreadyLoaded = false
+        if !alreadyLoaded {
+            alreadyLoaded = true
+            initScrollView()
+            initEventScrollView()
+        }
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -90,6 +95,9 @@ class HomeViewController: BaseViewController {
         viewModel.inputs.onViewDidLoad()
         let notificationName = Notification.Name("updateprofilelacakin")
         NotificationCenter.default.post(name: notificationName, object: nil)
+        searchTextField.returnKeyType = .search
+        searchTextField.delegate = self
+        searchTextField.clearButtonMode = .always
         
     }
     
@@ -163,6 +171,7 @@ extension HomeViewController {
             bgNotificationView.isHidden = true
         }
     }
+    
     func getCity() {
         let lat = locationManager.location?.coordinate.latitude ?? -6.21462
         let lng = locationManager.location?.coordinate.longitude ?? 106.84513
@@ -260,12 +269,6 @@ extension HomeViewController {
     
     func initScrollView() {
         print("initScrollView")
-//        let subViews = self.viewScrollView.subviews
-//        if subViews.count > 0 {
-//            for subview in subViews{
-//                subview.removeFromSuperview()
-//            }
-//        }
         
         let width = UIScreen.main.bounds.width
         let height = scrollView.frame.height
@@ -296,6 +299,9 @@ extension HomeViewController {
         scrollView.contentSize = CGSize(width: 2 * width,
                                         height: height)
         
+        viewScrollView.setNeedsLayout()
+        viewScrollView.layoutIfNeeded()
+        scrollView.setNeedsLayout()
         scrollView.layoutIfNeeded()
         view.layoutIfNeeded()
     }
@@ -304,7 +310,7 @@ extension HomeViewController {
         let width = UIScreen.main.bounds.width
         let height = eventScrollView.frame.height
         widthEventViewScrollConstraint.constant = 3 * width
-        heightEventViewScrollConstraint.constant = height
+//        heightEventViewScrollConstraint.constant = height
         eventScrollView.delegate = self
         eventScrollView.isPagingEnabled = true
         
@@ -318,7 +324,7 @@ extension HomeViewController {
         
         // This Month
         let thisMonthFrame = CGRect(x: width, y: 0, width: width, height: height)
-        let thisMonth = EventsCoordinator.createEventsViewController(emptyLabel: "There's no upcoming event right now")
+        let thisMonth = EventThisMonthCoordinator.createEventThisMonthViewController(emptyLabel: "There's no upcoming event right now")
         addChild(thisMonth)
         eventViewScrollView.addSubview(thisMonth.view)
         thisMonth.didMove(toParent: self)
@@ -326,15 +332,21 @@ extension HomeViewController {
         
         // Registered
         let registeredFrame = CGRect(x: width * 2, y: 0, width: width, height: height)
-        let registered = EventsCoordinator.createEventsViewController(emptyLabel: "You have registered in no events")
+        let registered = EventRegisteredCoordinator.createEventRegisteredViewController(emptyLabel: "You have registered in no events")
         addChild(registered)
         eventViewScrollView.addSubview(registered.view)
         registered.didMove(toParent: self)
         registered.view.frame = registeredFrame
         
+        eventScrollView.isScrollEnabled = false
+        eventScrollView.canCancelContentTouches = false
+        eventScrollView.delaysContentTouches = true
         eventScrollView.contentSize = CGSize(width: 3 * width,
                                         height: height)
         
+        eventViewScrollView.setNeedsLayout()
+        eventViewScrollView.layoutIfNeeded()
+        scrollView.setNeedsLayout()
         eventScrollView.layoutIfNeeded()
         view.layoutIfNeeded()
     }
@@ -480,6 +492,19 @@ extension HomeViewController: PopupCodeSuccessDelegate {
         let emptyModel2 = ActivityListOthersResponse.init(actId: nil, actCode: nil, actName: nil, actDesc: nil, actDateTimeStart: nil, actTimezone: nil, actCreated: nil, actComments: nil, actUserid: nil, actLikes: nil, actIslike: nil, actmemActive: nil, actmemDate: nil, ownerId: nil, ownerName: nil, ownerPhoto: nil, photos: [])
         let vc = DetailActivityCoordinator.createDetailActivityViewController(activityModel: emptyModel, activityModelOthers: emptyModel2, isFromList: false, joinActivityCode: code, isFromFriend: false)
         self.navigationController?.pushViewController(vc, animated: true)
+    }
+}
+
+extension HomeViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        if textField.text?.count == 0 {
+            ToastView.show(message: "Text must be filled", in: self, length: .short)
+            return false
+        }
+        textField.resignFirstResponder()
+        let vc = SearchEventsCoordinator.createSearchEventsViewController(keyword: textField.text ?? "")
+        navigationController?.pushViewController(vc, animated: true)
+        return true
     }
 }
 

@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7FEDD974F910F96494368BB5 /* Pods_Lacakin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F07A00CC511CEB1D992722 /* Pods_Lacakin.framework */; };
+		42CDDE1E039D476BB63A4274 /* Pods_Lacakin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F07A00CC511CEB1D992722 /* Pods_Lacakin.framework */; };
+		88E44190230A3FD700EF60A5 /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E4418E230A3FD700EF60A5 /* EmptyViewController.swift */; };
+		88E44191230A3FD700EF60A5 /* EmptyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88E4418F230A3FD700EF60A5 /* EmptyViewController.xib */; };
 		F6082ED822212AD600C6C9C6 /* EditProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6082ED322212AD600C6C9C6 /* EditProfileCoordinator.swift */; };
 		F6082ED922212AD600C6C9C6 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6082ED422212AD600C6C9C6 /* EditProfileViewController.swift */; };
 		F6082EDA22212AD600C6C9C6 /* EditProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6082ED522212AD600C6C9C6 /* EditProfileModel.swift */; };
@@ -153,6 +155,24 @@
 		F68505BD226DA541002DF59C /* TrackChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68505B8226DA541002DF59C /* TrackChatModel.swift */; };
 		F68505BE226DA541002DF59C /* TrackChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68505B9226DA541002DF59C /* TrackChatViewModel.swift */; };
 		F68505BF226DA541002DF59C /* TrackChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F68505BA226DA541002DF59C /* TrackChatViewController.xib */; };
+		F68747B322BF71FC0054E8D5 /* EventThisMonthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68747AE22BF71FC0054E8D5 /* EventThisMonthCoordinator.swift */; };
+		F68747B422BF71FC0054E8D5 /* EventThisMonthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68747AF22BF71FC0054E8D5 /* EventThisMonthViewController.swift */; };
+		F68747B522BF71FC0054E8D5 /* EventThisMonthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68747B022BF71FC0054E8D5 /* EventThisMonthModel.swift */; };
+		F68747B622BF71FC0054E8D5 /* EventThisMonthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68747B122BF71FC0054E8D5 /* EventThisMonthViewModel.swift */; };
+		F68747B722BF71FC0054E8D5 /* EventThisMonthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F68747B222BF71FC0054E8D5 /* EventThisMonthViewController.xib */; };
+		F68747BD22BF72090054E8D5 /* EventRegisteredCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68747B822BF72090054E8D5 /* EventRegisteredCoordinator.swift */; };
+		F68747BE22BF72090054E8D5 /* EventRegisteredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68747B922BF72090054E8D5 /* EventRegisteredViewController.swift */; };
+		F68747BF22BF72090054E8D5 /* EventRegisteredModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68747BA22BF72090054E8D5 /* EventRegisteredModel.swift */; };
+		F68747C022BF72090054E8D5 /* EventRegisteredViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68747BB22BF72090054E8D5 /* EventRegisteredViewModel.swift */; };
+		F68747C122BF72090054E8D5 /* EventRegisteredViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F68747BC22BF72090054E8D5 /* EventRegisteredViewController.xib */; };
+		F68747C822BF89970054E8D5 /* SearchEventsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68747C322BF89970054E8D5 /* SearchEventsCoordinator.swift */; };
+		F68747C922BF89970054E8D5 /* SearchEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68747C422BF89970054E8D5 /* SearchEventsViewController.swift */; };
+		F68747CA22BF89970054E8D5 /* SearchEventsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68747C522BF89970054E8D5 /* SearchEventsModel.swift */; };
+		F68747CB22BF89970054E8D5 /* SearchEventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68747C622BF89970054E8D5 /* SearchEventsViewModel.swift */; };
+		F68747CC22BF89970054E8D5 /* SearchEventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F68747C722BF89970054E8D5 /* SearchEventsViewController.xib */; };
+		F68747D022BFE3530054E8D5 /* DetailEventResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68747CD22BFE3530054E8D5 /* DetailEventResponse.swift */; };
+		F68747D122BFE3530054E8D5 /* DetailEventRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68747CE22BFE3530054E8D5 /* DetailEventRequest.swift */; };
+		F68747D222BFE3530054E8D5 /* DetailEventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68747CF22BFE3530054E8D5 /* DetailEventData.swift */; };
 		F68CA53B2270519600B32DF0 /* NotificationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CA5392270519600B32DF0 /* NotificationsTableViewCell.swift */; };
 		F68CA53C2270519600B32DF0 /* NotificationsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F68CA53A2270519600B32DF0 /* NotificationsTableViewCell.xib */; };
 		F68CA546227065C400B32DF0 /* ListCheckpointResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CA543227065C400B32DF0 /* ListCheckpointResponse.swift */; };
@@ -190,6 +210,31 @@
 		F695A419226F1B69006EEF17 /* DeletePhotoActivityRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695A416226F1B69006EEF17 /* DeletePhotoActivityRequest.swift */; };
 		F695A41A226F1B69006EEF17 /* DeletePhotoActivityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695A417226F1B69006EEF17 /* DeletePhotoActivityData.swift */; };
 		F695A41C226F23D0006EEF17 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695A41B226F23D0006EEF17 /* UIImage.swift */; };
+		F69959E822B6861C00B1B250 /* DetailEventCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69959E322B6861C00B1B250 /* DetailEventCoordinator.swift */; };
+		F69959E922B6861C00B1B250 /* DetailEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69959E422B6861C00B1B250 /* DetailEventViewController.swift */; };
+		F69959EA22B6861C00B1B250 /* DetailEventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69959E522B6861C00B1B250 /* DetailEventModel.swift */; };
+		F69959EB22B6861C00B1B250 /* DetailEventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69959E622B6861C00B1B250 /* DetailEventViewModel.swift */; };
+		F69959EC22B6861C00B1B250 /* DetailEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69959E722B6861C00B1B250 /* DetailEventViewController.xib */; };
+		F69959F322B68B1E00B1B250 /* DetailEventCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69959F122B68B1E00B1B250 /* DetailEventCollectionViewCell.swift */; };
+		F69959F422B68B1E00B1B250 /* DetailEventCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69959F222B68B1E00B1B250 /* DetailEventCollectionViewCell.xib */; };
+		F69959F722B68F3E00B1B250 /* EquipmentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69959F522B68F3E00B1B250 /* EquipmentCollectionViewCell.swift */; };
+		F69959F822B68F3E00B1B250 /* EquipmentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69959F622B68F3E00B1B250 /* EquipmentCollectionViewCell.xib */; };
+		F69959FB22B6902100B1B250 /* DetailEquipmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69959F922B6902100B1B250 /* DetailEquipmentViewController.swift */; };
+		F69959FC22B6902100B1B250 /* DetailEquipmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69959FA22B6902100B1B250 /* DetailEquipmentViewController.xib */; };
+		F6995A0022B6A49C00B1B250 /* AllListEventResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69959FD22B6A49C00B1B250 /* AllListEventResponse.swift */; };
+		F6995A0122B6A49C00B1B250 /* AllListEventRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69959FE22B6A49C00B1B250 /* AllListEventRequest.swift */; };
+		F6995A0222B6A49C00B1B250 /* AllListEventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69959FF22B6A49C00B1B250 /* AllListEventData.swift */; };
+		F6995A0C22B6A56300B1B250 /* ThisMonthListEventResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6995A0922B6A56300B1B250 /* ThisMonthListEventResponse.swift */; };
+		F6995A0D22B6A56300B1B250 /* ThisMonthListEventRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6995A0A22B6A56300B1B250 /* ThisMonthListEventRequest.swift */; };
+		F6995A0E22B6A56300B1B250 /* ThisMonthListEventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6995A0B22B6A56300B1B250 /* ThisMonthListEventData.swift */; };
+		F6995A1222B6A57600B1B250 /* RegisteredListEventResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6995A0F22B6A57600B1B250 /* RegisteredListEventResponse.swift */; };
+		F6995A1322B6A57600B1B250 /* RegisteredListEventRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6995A1022B6A57600B1B250 /* RegisteredListEventRequest.swift */; };
+		F6995A1422B6A57600B1B250 /* RegisteredListEventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6995A1122B6A57600B1B250 /* RegisteredListEventData.swift */; };
+		F6995A1622B6A9F500B1B250 /* AllListEventPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6995A1522B6A9F500B1B250 /* AllListEventPhotos.swift */; };
+		F6995A1822B6AA0100B1B250 /* ThisMonthEventPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6995A1722B6AA0100B1B250 /* ThisMonthEventPhotos.swift */; };
+		F6995A1A22B6AA3100B1B250 /* AllListEventPackages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6995A1922B6AA3100B1B250 /* AllListEventPackages.swift */; };
+		F6995A1C22B6AA4100B1B250 /* AllListEventPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6995A1B22B6AA4100B1B250 /* AllListEventPhoto.swift */; };
+		F6995A1E22B6AA5100B1B250 /* AllListParticipation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6995A1D22B6AA5100B1B250 /* AllListParticipation.swift */; };
 		F69BE18B21F1B5180059C4B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69BE18A21F1B5180059C4B4 /* AppDelegate.swift */; };
 		F69BE19221F1B5190059C4B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69BE19121F1B5190059C4B4 /* Assets.xcassets */; };
 		F69BE19521F1B5190059C4B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69BE19321F1B5190059C4B4 /* LaunchScreen.storyboard */; };
@@ -363,6 +408,8 @@
 		F6DEFE17226DE57500C79235 /* UserProfileRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DEFE14226DE57500C79235 /* UserProfileRequest.swift */; };
 		F6DEFE18226DE57500C79235 /* UserProfileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DEFE15226DE57500C79235 /* UserProfileData.swift */; };
 		F6DEFE1A226DE79100C79235 /* ActivityListPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DEFE19226DE79100C79235 /* ActivityListPhoto.swift */; };
+		F6E23F5E22C0672700083F40 /* EventPackages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E23F5D22C0672700083F40 /* EventPackages.swift */; };
+		F6E23F6022C0712900083F40 /* PackagesEquipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E23F5F22C0712900083F40 /* PackagesEquipment.swift */; };
 		F6E5C6C0221C3BEA00756C8E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5C6BF221C3BEA00756C8E /* Profile.swift */; };
 		F6E5C6C2221C3CC600756C8E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5C6C1221C3CC600756C8E /* User.swift */; };
 		F6E5C6C4221C3D0800756C8E /* DefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E5C6C3221C3D0800756C8E /* DefaultKeys.swift */; };
@@ -410,6 +457,8 @@
 
 /* Begin PBXFileReference section */
 		0D58AB499AB13E0C4885BF54 /* Pods-Lacakin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lacakin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lacakin/Pods-Lacakin.release.xcconfig"; sourceTree = "<group>"; };
+		88E4418E230A3FD700EF60A5 /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
+		88E4418F230A3FD700EF60A5 /* EmptyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyViewController.xib; sourceTree = "<group>"; };
 		C6F07A00CC511CEB1D992722 /* Pods_Lacakin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lacakin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6082ED322212AD600C6C9C6 /* EditProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileCoordinator.swift; sourceTree = "<group>"; };
 		F6082ED422212AD600C6C9C6 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
@@ -556,6 +605,24 @@
 		F68505B8226DA541002DF59C /* TrackChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackChatModel.swift; sourceTree = "<group>"; };
 		F68505B9226DA541002DF59C /* TrackChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackChatViewModel.swift; sourceTree = "<group>"; };
 		F68505BA226DA541002DF59C /* TrackChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackChatViewController.xib; sourceTree = "<group>"; };
+		F68747AE22BF71FC0054E8D5 /* EventThisMonthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventThisMonthCoordinator.swift; sourceTree = "<group>"; };
+		F68747AF22BF71FC0054E8D5 /* EventThisMonthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventThisMonthViewController.swift; sourceTree = "<group>"; };
+		F68747B022BF71FC0054E8D5 /* EventThisMonthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventThisMonthModel.swift; sourceTree = "<group>"; };
+		F68747B122BF71FC0054E8D5 /* EventThisMonthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventThisMonthViewModel.swift; sourceTree = "<group>"; };
+		F68747B222BF71FC0054E8D5 /* EventThisMonthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventThisMonthViewController.xib; sourceTree = "<group>"; };
+		F68747B822BF72090054E8D5 /* EventRegisteredCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRegisteredCoordinator.swift; sourceTree = "<group>"; };
+		F68747B922BF72090054E8D5 /* EventRegisteredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRegisteredViewController.swift; sourceTree = "<group>"; };
+		F68747BA22BF72090054E8D5 /* EventRegisteredModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRegisteredModel.swift; sourceTree = "<group>"; };
+		F68747BB22BF72090054E8D5 /* EventRegisteredViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRegisteredViewModel.swift; sourceTree = "<group>"; };
+		F68747BC22BF72090054E8D5 /* EventRegisteredViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventRegisteredViewController.xib; sourceTree = "<group>"; };
+		F68747C322BF89970054E8D5 /* SearchEventsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEventsCoordinator.swift; sourceTree = "<group>"; };
+		F68747C422BF89970054E8D5 /* SearchEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEventsViewController.swift; sourceTree = "<group>"; };
+		F68747C522BF89970054E8D5 /* SearchEventsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEventsModel.swift; sourceTree = "<group>"; };
+		F68747C622BF89970054E8D5 /* SearchEventsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEventsViewModel.swift; sourceTree = "<group>"; };
+		F68747C722BF89970054E8D5 /* SearchEventsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchEventsViewController.xib; sourceTree = "<group>"; };
+		F68747CD22BFE3530054E8D5 /* DetailEventResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEventResponse.swift; sourceTree = "<group>"; };
+		F68747CE22BFE3530054E8D5 /* DetailEventRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEventRequest.swift; sourceTree = "<group>"; };
+		F68747CF22BFE3530054E8D5 /* DetailEventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEventData.swift; sourceTree = "<group>"; };
 		F68CA5392270519600B32DF0 /* NotificationsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsTableViewCell.swift; sourceTree = "<group>"; };
 		F68CA53A2270519600B32DF0 /* NotificationsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationsTableViewCell.xib; sourceTree = "<group>"; };
 		F68CA543227065C400B32DF0 /* ListCheckpointResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCheckpointResponse.swift; sourceTree = "<group>"; };
@@ -593,6 +660,31 @@
 		F695A416226F1B69006EEF17 /* DeletePhotoActivityRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletePhotoActivityRequest.swift; sourceTree = "<group>"; };
 		F695A417226F1B69006EEF17 /* DeletePhotoActivityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletePhotoActivityData.swift; sourceTree = "<group>"; };
 		F695A41B226F23D0006EEF17 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		F69959E322B6861C00B1B250 /* DetailEventCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEventCoordinator.swift; sourceTree = "<group>"; };
+		F69959E422B6861C00B1B250 /* DetailEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEventViewController.swift; sourceTree = "<group>"; };
+		F69959E522B6861C00B1B250 /* DetailEventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEventModel.swift; sourceTree = "<group>"; };
+		F69959E622B6861C00B1B250 /* DetailEventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEventViewModel.swift; sourceTree = "<group>"; };
+		F69959E722B6861C00B1B250 /* DetailEventViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailEventViewController.xib; sourceTree = "<group>"; };
+		F69959F122B68B1E00B1B250 /* DetailEventCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEventCollectionViewCell.swift; sourceTree = "<group>"; };
+		F69959F222B68B1E00B1B250 /* DetailEventCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailEventCollectionViewCell.xib; sourceTree = "<group>"; };
+		F69959F522B68F3E00B1B250 /* EquipmentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentCollectionViewCell.swift; sourceTree = "<group>"; };
+		F69959F622B68F3E00B1B250 /* EquipmentCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EquipmentCollectionViewCell.xib; sourceTree = "<group>"; };
+		F69959F922B6902100B1B250 /* DetailEquipmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEquipmentViewController.swift; sourceTree = "<group>"; };
+		F69959FA22B6902100B1B250 /* DetailEquipmentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailEquipmentViewController.xib; sourceTree = "<group>"; };
+		F69959FD22B6A49C00B1B250 /* AllListEventResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListEventResponse.swift; sourceTree = "<group>"; };
+		F69959FE22B6A49C00B1B250 /* AllListEventRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListEventRequest.swift; sourceTree = "<group>"; };
+		F69959FF22B6A49C00B1B250 /* AllListEventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListEventData.swift; sourceTree = "<group>"; };
+		F6995A0922B6A56300B1B250 /* ThisMonthListEventResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThisMonthListEventResponse.swift; sourceTree = "<group>"; };
+		F6995A0A22B6A56300B1B250 /* ThisMonthListEventRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThisMonthListEventRequest.swift; sourceTree = "<group>"; };
+		F6995A0B22B6A56300B1B250 /* ThisMonthListEventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThisMonthListEventData.swift; sourceTree = "<group>"; };
+		F6995A0F22B6A57600B1B250 /* RegisteredListEventResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisteredListEventResponse.swift; sourceTree = "<group>"; };
+		F6995A1022B6A57600B1B250 /* RegisteredListEventRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisteredListEventRequest.swift; sourceTree = "<group>"; };
+		F6995A1122B6A57600B1B250 /* RegisteredListEventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisteredListEventData.swift; sourceTree = "<group>"; };
+		F6995A1522B6A9F500B1B250 /* AllListEventPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListEventPhotos.swift; sourceTree = "<group>"; };
+		F6995A1722B6AA0100B1B250 /* ThisMonthEventPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThisMonthEventPhotos.swift; sourceTree = "<group>"; };
+		F6995A1922B6AA3100B1B250 /* AllListEventPackages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListEventPackages.swift; sourceTree = "<group>"; };
+		F6995A1B22B6AA4100B1B250 /* AllListEventPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListEventPhoto.swift; sourceTree = "<group>"; };
+		F6995A1D22B6AA5100B1B250 /* AllListParticipation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListParticipation.swift; sourceTree = "<group>"; };
 		F69BE18721F1B5180059C4B4 /* Lacakin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lacakin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69BE18A21F1B5180059C4B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F69BE19121F1B5190059C4B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -769,6 +861,8 @@
 		F6DEFE14226DE57500C79235 /* UserProfileRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileRequest.swift; sourceTree = "<group>"; };
 		F6DEFE15226DE57500C79235 /* UserProfileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileData.swift; sourceTree = "<group>"; };
 		F6DEFE19226DE79100C79235 /* ActivityListPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityListPhoto.swift; sourceTree = "<group>"; };
+		F6E23F5D22C0672700083F40 /* EventPackages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPackages.swift; sourceTree = "<group>"; };
+		F6E23F5F22C0712900083F40 /* PackagesEquipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagesEquipment.swift; sourceTree = "<group>"; };
 		F6E5C6BF221C3BEA00756C8E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		F6E5C6C1221C3CC600756C8E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F6E5C6C3221C3D0800756C8E /* DefaultKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultKeys.swift; sourceTree = "<group>"; };
@@ -820,7 +914,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FEDD974F910F96494368BB5 /* Pods_Lacakin.framework in Frameworks */,
+				42CDDE1E039D476BB63A4274 /* Pods_Lacakin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1045,6 +1139,56 @@
 			path = Chat;
 			sourceTree = "<group>";
 		};
+		F68747AB22BF6BD20054E8D5 /* Registered */ = {
+			isa = PBXGroup;
+			children = (
+				F68747B822BF72090054E8D5 /* EventRegisteredCoordinator.swift */,
+				F68747B922BF72090054E8D5 /* EventRegisteredViewController.swift */,
+				F68747BA22BF72090054E8D5 /* EventRegisteredModel.swift */,
+				F68747BB22BF72090054E8D5 /* EventRegisteredViewModel.swift */,
+				F68747BC22BF72090054E8D5 /* EventRegisteredViewController.xib */,
+			);
+			path = Registered;
+			sourceTree = "<group>";
+		};
+		F68747AC22BF6BD30054E8D5 /* ThisMonth */ = {
+			isa = PBXGroup;
+			children = (
+				F68747AE22BF71FC0054E8D5 /* EventThisMonthCoordinator.swift */,
+				F68747AF22BF71FC0054E8D5 /* EventThisMonthViewController.swift */,
+				F68747B022BF71FC0054E8D5 /* EventThisMonthModel.swift */,
+				F68747B122BF71FC0054E8D5 /* EventThisMonthViewModel.swift */,
+				F68747B222BF71FC0054E8D5 /* EventThisMonthViewController.xib */,
+			);
+			path = ThisMonth;
+			sourceTree = "<group>";
+		};
+		F68747AD22BF6BD50054E8D5 /* All */ = {
+			isa = PBXGroup;
+			children = (
+				F6DB645B220975D100FB1162 /* EventsCoordinator.swift */,
+				F6DB645C220975D100FB1162 /* EventsViewController.swift */,
+				F6DB645D220975D100FB1162 /* EventsModel.swift */,
+				F6DB645E220975D100FB1162 /* EventsViewModel.swift */,
+				F6DB645F220975D100FB1162 /* EventsViewController.xib */,
+				F6DB6465220975DC00FB1162 /* EventsTableViewCell.swift */,
+				F6DB6466220975DC00FB1162 /* EventsTableViewCell.xib */,
+			);
+			path = All;
+			sourceTree = "<group>";
+		};
+		F68747C222BF89870054E8D5 /* SearchEvents */ = {
+			isa = PBXGroup;
+			children = (
+				F68747C322BF89970054E8D5 /* SearchEventsCoordinator.swift */,
+				F68747C422BF89970054E8D5 /* SearchEventsViewController.swift */,
+				F68747C522BF89970054E8D5 /* SearchEventsModel.swift */,
+				F68747C622BF89970054E8D5 /* SearchEventsViewModel.swift */,
+				F68747C722BF89970054E8D5 /* SearchEventsViewController.xib */,
+			);
+			path = SearchEvents;
+			sourceTree = "<group>";
+		};
 		F691F6B422701BE1005B5D5A /* AddRoute */ = {
 			isa = PBXGroup;
 			children = (
@@ -1057,6 +1201,26 @@
 				F691F6C0227020A1005B5D5A /* WKWebViewController.xib */,
 			);
 			path = AddRoute;
+			sourceTree = "<group>";
+		};
+		F69959E222B685B300B1B250 /* DetailEvent */ = {
+			isa = PBXGroup;
+			children = (
+				F69959E322B6861C00B1B250 /* DetailEventCoordinator.swift */,
+				F69959E422B6861C00B1B250 /* DetailEventViewController.swift */,
+				F69959E522B6861C00B1B250 /* DetailEventModel.swift */,
+				F69959E622B6861C00B1B250 /* DetailEventViewModel.swift */,
+				F69959E722B6861C00B1B250 /* DetailEventViewController.xib */,
+				F69959F122B68B1E00B1B250 /* DetailEventCollectionViewCell.swift */,
+				F69959F222B68B1E00B1B250 /* DetailEventCollectionViewCell.xib */,
+				F69959F522B68F3E00B1B250 /* EquipmentCollectionViewCell.swift */,
+				F69959F622B68F3E00B1B250 /* EquipmentCollectionViewCell.xib */,
+				F69959F922B6902100B1B250 /* DetailEquipmentViewController.swift */,
+				F69959FA22B6902100B1B250 /* DetailEquipmentViewController.xib */,
+				88E4418E230A3FD700EF60A5 /* EmptyViewController.swift */,
+				88E4418F230A3FD700EF60A5 /* EmptyViewController.xib */,
+			);
+			path = DetailEvent;
 			sourceTree = "<group>";
 		};
 		F69BE17E21F1B5170059C4B4 = {
@@ -1096,27 +1260,29 @@
 		F69BE19C21F1BC2C0059C4B4 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				F646930921F397860075756E /* Activity */,
 				F691F6B422701BE1005B5D5A /* AddRoute */,
-				F6A206BD226EC0C400F65163 /* PhotoActivity */,
-				F6850590226D5EB6002DF59C /* DetailProfile */,
 				F6D0A6C9226CD210007BEFF7 /* Comment */,
-				F647E4D6223899710096EB4C /* Profile */,
-				F61193AC222C373D000DD5A8 /* TrackMaps */,
 				F61193A1222C2E3D000DD5A8 /* DetailActivity */,
+				F69959E222B685B300B1B250 /* DetailEvent */,
+				F6850590226D5EB6002DF59C /* DetailProfile */,
 				F6082ED222212ACB00C6C9C6 /* EditProfile */,
 				F6DB645A220975C500FB1162 /* Events */,
-				F6DB644F22091BE200FB1162 /* OTP */,
 				F66FEC592201F7DF008F5585 /* ForgotPassword */,
-				F69C958A2201437500D96F02 /* Register */,
 				F69C957F2201375E00D96F02 /* Login */,
-				F646930921F397860075756E /* Activity */,
 				F69BE19D21F1BC8E0059C4B4 /* Home */,
 				F69BE1DA21F212A60059C4B4 /* Mine */,
 				F69BE1FB21F229E80059C4B4 /* Notifications */,
 				F69BE1E521F212BA0059C4B4 /* Others */,
+				F6DB644F22091BE200FB1162 /* OTP */,
+				F6A206BD226EC0C400F65163 /* PhotoActivity */,
 				F60A8A4C21F31F4300952ADD /* Popup */,
+				F647E4D6223899710096EB4C /* Profile */,
+				F69C958A2201437500D96F02 /* Register */,
+				F68747C222BF89870054E8D5 /* SearchEvents */,
 				F69BE1F021F2263F0059C4B4 /* SideMenu */,
 				F64692EB21F38CEF0075756E /* Standar */,
+				F61193AC222C373D000DD5A8 /* TrackMaps */,
 				F64692FE21F394390075756E /* WebView */,
 			);
 			path = Modules;
@@ -1391,13 +1557,9 @@
 		F6DB645A220975C500FB1162 /* Events */ = {
 			isa = PBXGroup;
 			children = (
-				F6DB645B220975D100FB1162 /* EventsCoordinator.swift */,
-				F6DB645C220975D100FB1162 /* EventsViewController.swift */,
-				F6DB645D220975D100FB1162 /* EventsModel.swift */,
-				F6DB645E220975D100FB1162 /* EventsViewModel.swift */,
-				F6DB645F220975D100FB1162 /* EventsViewController.xib */,
-				F6DB6465220975DC00FB1162 /* EventsTableViewCell.swift */,
-				F6DB6466220975DC00FB1162 /* EventsTableViewCell.xib */,
+				F68747AD22BF6BD50054E8D5 /* All */,
+				F68747AC22BF6BD30054E8D5 /* ThisMonth */,
+				F68747AB22BF6BD20054E8D5 /* Registered */,
 			);
 			path = Events;
 			sourceTree = "<group>";
@@ -1567,6 +1729,25 @@
 				F6A1CD09229D104900E6E259 /* ImportRouteResponse.swift */,
 				F6A1CD0A229D104900E6E259 /* ImportRouteRequest.swift */,
 				F6A1CD0B229D104900E6E259 /* ImportRouteData.swift */,
+				F69959FD22B6A49C00B1B250 /* AllListEventResponse.swift */,
+				F69959FE22B6A49C00B1B250 /* AllListEventRequest.swift */,
+				F69959FF22B6A49C00B1B250 /* AllListEventData.swift */,
+				F6995A0922B6A56300B1B250 /* ThisMonthListEventResponse.swift */,
+				F6995A0A22B6A56300B1B250 /* ThisMonthListEventRequest.swift */,
+				F6995A0B22B6A56300B1B250 /* ThisMonthListEventData.swift */,
+				F6995A0F22B6A57600B1B250 /* RegisteredListEventResponse.swift */,
+				F6995A1022B6A57600B1B250 /* RegisteredListEventRequest.swift */,
+				F6995A1122B6A57600B1B250 /* RegisteredListEventData.swift */,
+				F6995A1522B6A9F500B1B250 /* AllListEventPhotos.swift */,
+				F6995A1922B6AA3100B1B250 /* AllListEventPackages.swift */,
+				F6995A1B22B6AA4100B1B250 /* AllListEventPhoto.swift */,
+				F6995A1D22B6AA5100B1B250 /* AllListParticipation.swift */,
+				F6995A1722B6AA0100B1B250 /* ThisMonthEventPhotos.swift */,
+				F68747CD22BFE3530054E8D5 /* DetailEventResponse.swift */,
+				F68747CE22BFE3530054E8D5 /* DetailEventRequest.swift */,
+				F68747CF22BFE3530054E8D5 /* DetailEventData.swift */,
+				F6E23F5D22C0672700083F40 /* EventPackages.swift */,
+				F6E23F5F22C0712900083F40 /* PackagesEquipment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1620,12 +1801,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F69BE19921F1B5190059C4B4 /* Build configuration list for PBXNativeTarget "Lacakin" */;
 			buildPhases = (
-				33AE215E20053A8929086B2D /* [CP] Check Pods Manifest.lock */,
+				650EFC53D34430BFADB03013 /* [CP] Check Pods Manifest.lock */,
 				F69BE18321F1B5180059C4B4 /* Sources */,
 				F69BE18421F1B5180059C4B4 /* Frameworks */,
 				F69BE18521F1B5180059C4B4 /* Resources */,
-				FCD91D928E616FCB7F7477E4 /* [CP] Embed Pods Frameworks */,
-				8FD557813F30281318911F55 /* [CP] Copy Pods Resources */,
+				8D9323D53487D3793093E122 /* [CP] Embed Pods Frameworks */,
+				BEB04733C52D532581DA4A92 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1679,12 +1860,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F69959F422B68B1E00B1B250 /* DetailEventCollectionViewCell.xib in Resources */,
 				F6D0A6D3226CD223007BEFF7 /* CommentViewController.xib in Resources */,
 				F620755D22712741007EA6C5 /* RouteTableViewCell.xib in Resources */,
 				F66FEC632201F7F2008F5585 /* ForgotPasswordViewController.xib in Resources */,
 				F6A206C7226EC0D800F65163 /* PhotoActivityViewController.xib in Resources */,
 				F646930821F394510075756E /* WebViewViewController.xib in Resources */,
 				F68CA570227073A700B32DF0 /* NearbyTableViewCell.xib in Resources */,
+				F68747B722BF71FC0054E8D5 /* EventThisMonthViewController.xib in Resources */,
 				F6A206CB226EC0EC00F65163 /* PhotoActivityTableViewCell.xib in Resources */,
 				F6D0A6C8226CBA11007BEFF7 /* ParticipantActivityTableViewCell.xib in Resources */,
 				F6BFF7AF226E2F5900FD0DAE /* client_730913208094-kd59g77garastu984l6u2ufqq31sps3o.apps.googleusercontent.com.plist in Resources */,
@@ -1693,11 +1876,14 @@
 				F691F6C2227020A1005B5D5A /* WKWebViewController.xib in Resources */,
 				F69BE1EF21F212C60059C4B4 /* OthersViewController.xib in Resources */,
 				F69C95892201376900D96F02 /* LoginViewController.xib in Resources */,
+				F68747CC22BF89970054E8D5 /* SearchEventsViewController.xib in Resources */,
 				F6DB645922091BFA00FB1162 /* OTPViewController.xib in Resources */,
 				F6DEFE08226DDFFB00C79235 /* FriendEventsViewController.xib in Resources */,
 				F69BE1D221F1C0420059C4B4 /* metropolisregular.otf in Resources */,
 				F64692FD21F38F8C0075756E /* StandartTableViewCell.xib in Resources */,
 				F685059E226D61D0002DF59C /* DetailProfileCollectionViewCell.xib in Resources */,
+				F69959FC22B6902100B1B250 /* DetailEquipmentViewController.xib in Resources */,
+				F69959F822B68F3E00B1B250 /* EquipmentCollectionViewCell.xib in Resources */,
 				F685059A226D5EC3002DF59C /* DetailProfileViewController.xib in Resources */,
 				F6FC6B4F2236047700A2085C /* CheckpointViewController.xib in Resources */,
 				F68505A2226D7556002DF59C /* OthersTableViewCell.xib in Resources */,
@@ -1708,6 +1894,7 @@
 				F69BE19521F1B5190059C4B4 /* LaunchScreen.storyboard in Resources */,
 				F64692F521F38D490075756E /* StandartViewController.xib in Resources */,
 				F68505BF226DA541002DF59C /* TrackChatViewController.xib in Resources */,
+				88E44191230A3FD700EF60A5 /* EmptyViewController.xib in Resources */,
 				F646931C21F39CA50075756E /* ActivityTimeTableViewCell.xib in Resources */,
 				F6BFF7B7226E341700FD0DAE /* FriendCommentTableViewCell.xib in Resources */,
 				F646931721F39C8D0075756E /* ActivityTitleTableViewCell.xib in Resources */,
@@ -1724,6 +1911,7 @@
 				F647E4E0223899890096EB4C /* ProfileViewController.xib in Resources */,
 				F6FC6B452236046E00A2085C /* RouteViewController.xib in Resources */,
 				F6BFF7B3226E340800FD0DAE /* UserCommentTableViewCell.xib in Resources */,
+				F69959EC22B6861C00B1B250 /* DetailEventViewController.xib in Resources */,
 				F69BE1FA21F2264B0059C4B4 /* SideMenuViewController.xib in Resources */,
 				F69BE1D121F1C0420059C4B4 /* metropolisbold.otf in Resources */,
 				F69BE20521F229F50059C4B4 /* NotificationsViewController.xib in Resources */,
@@ -1739,13 +1927,14 @@
 				F6637F35226F661400F9B1BF /* UploadPhotoViewController.xib in Resources */,
 				F60A8A5021F31F5500952ADD /* PopupCodeViewController.xib in Resources */,
 				F69BE1E421F212B60059C4B4 /* MineViewController.xib in Resources */,
+				F68747C122BF72090054E8D5 /* EventRegisteredViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		33AE215E20053A8929086B2D /* [CP] Check Pods Manifest.lock */ = {
+		650EFC53D34430BFADB03013 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1767,88 +1956,38 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8FD557813F30281318911F55 /* [CP] Copy Pods Resources */ = {
+		8D9323D53487D3793093E122 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Lacakin/Pods-Lacakin-resources.sh",
-				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
-				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
-				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lacakin/Pods-Lacakin-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FCD91D928E616FCB7F7477E4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Lacakin/Pods-Lacakin-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
-				"${BUILT_PRODUCTS_DIR}/CocoaMQTT/CocoaMQTT.framework",
-				"${BUILT_PRODUCTS_DIR}/GSImageViewerController/GSImageViewerController.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/GrowingTextView/GrowingTextView.framework",
-				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/KYDrawerController/KYDrawerController.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
-				"${BUILT_PRODUCTS_DIR}/NotificationView/NotificationView.framework",
-				"${BUILT_PRODUCTS_DIR}/Polyline/Polyline.framework",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Lacakin/Pods-Lacakin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaMQTT.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GSImageViewerController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GrowingTextView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KYDrawerController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NotificationView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Polyline.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Lacakin/Pods-Lacakin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lacakin/Pods-Lacakin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEB04733C52D532581DA4A92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lacakin/Pods-Lacakin-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lacakin/Pods-Lacakin-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lacakin/Pods-Lacakin-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1869,9 +2008,14 @@
 				F691F6C422704696005B5D5A /* MTQQNotification.swift in Sources */,
 				F6BFF7B6226E341700FD0DAE /* FriendCommentTableViewCell.swift in Sources */,
 				F69BE1EC21F212C60059C4B4 /* OthersViewController.swift in Sources */,
+				88E44190230A3FD700EF60A5 /* EmptyViewController.swift in Sources */,
 				F6DEFE16226DE57500C79235 /* UserProfileResponse.swift in Sources */,
+				F68747D022BFE3530054E8D5 /* DetailEventResponse.swift in Sources */,
 				F6DEFE18226DE57500C79235 /* UserProfileData.swift in Sources */,
 				F6F70609221E3B900075F56A /* AddActivityResponse.swift in Sources */,
+				F68747C922BF89970054E8D5 /* SearchEventsViewController.swift in Sources */,
+				F6E23F5E22C0672700083F40 /* EventPackages.swift in Sources */,
+				F6995A0222B6A49C00B1B250 /* AllListEventData.swift in Sources */,
 				F6412D2F221CFEC000BA7E47 /* ActivityListRequest.swift in Sources */,
 				F620884C2213168E005C9255 /* LacakinError.swift in Sources */,
 				F69C95882201376900D96F02 /* LoginViewModel.swift in Sources */,
@@ -1899,6 +2043,7 @@
 				F6FB64C2221BA21700D5A1C5 /* ConfirmOTPData.swift in Sources */,
 				F6F70607221E3B860075F56A /* AddActivityData.swift in Sources */,
 				F69BE20421F229F50059C4B4 /* NotificationsViewModel.swift in Sources */,
+				F6995A1822B6AA0100B1B250 /* ThisMonthEventPhotos.swift in Sources */,
 				F68505B3226D9136002DF59C /* ApproveMemberActivityRequest.swift in Sources */,
 				F6D1756C21F2330800821FB4 /* MinePhotoCollectionViewCell.swift in Sources */,
 				F69BE1CA21F1BFB20059C4B4 /* UITableView.swift in Sources */,
@@ -1906,6 +2051,7 @@
 				F6D0A6A8226C583D007BEFF7 /* DetailJoinActivityResponse.swift in Sources */,
 				F68CA552227065FE00B32DF0 /* ListNearbyResponse.swift in Sources */,
 				F68CA565227066B200B32DF0 /* StopTrackingRequest.swift in Sources */,
+				F69959EB22B6861C00B1B250 /* DetailEventViewModel.swift in Sources */,
 				F64FF0C322238C5700558695 /* SetPhoneResponse.swift in Sources */,
 				F6F13831220BD11E005E8E21 /* Encodable.swift in Sources */,
 				F6A8ADC72292EB9400433E7B /* DetailForgotPasswordModel.swift in Sources */,
@@ -1927,6 +2073,7 @@
 				F64693DE2268D950001238B9 /* LoginGoogleRequest.swift in Sources */,
 				F69BE1A621F1BC9D0059C4B4 /* HomeViewModel.swift in Sources */,
 				F68CA55A2270660B00B32DF0 /* CheckinCheckpointData.swift in Sources */,
+				F68747CB22BF89970054E8D5 /* SearchEventsViewModel.swift in Sources */,
 				F6082ED922212AD600C6C9C6 /* EditProfileViewController.swift in Sources */,
 				F6BFF79A226E20CA00FD0DAE /* LikeActivityViewModel.swift in Sources */,
 				F6082ED822212AD600C6C9C6 /* EditProfileCoordinator.swift in Sources */,
@@ -1960,10 +2107,13 @@
 				F647E50522389D9F0096EB4C /* ProfileActivityModel.swift in Sources */,
 				F695A418226F1B69006EEF17 /* DeletePhotoActivityResponse.swift in Sources */,
 				F6207563227147B2007EA6C5 /* ListGroupChatData.swift in Sources */,
+				F6995A1622B6A9F500B1B250 /* AllListEventPhotos.swift in Sources */,
 				F6DEFDEE226DD12A00C79235 /* FriendActivityResponse.swift in Sources */,
 				F627CA5F2216587900764F67 /* RegisterData.swift in Sources */,
 				F6F70605221E3B7C0075F56A /* AddActivityRequest.swift in Sources */,
 				F6D0A6D0226CD223007BEFF7 /* CommentViewController.swift in Sources */,
+				F69959E922B6861C00B1B250 /* DetailEventViewController.swift in Sources */,
+				F6995A1C22B6AA4100B1B250 /* AllListEventPhoto.swift in Sources */,
 				F69BE1AA21F1BCEE0059C4B4 /* BaseViewModel.swift in Sources */,
 				F6D1756821F22FE300821FB4 /* MineTableViewCell.swift in Sources */,
 				F69BE1A321F1BC9D0059C4B4 /* HomeCoordinator.swift in Sources */,
@@ -1985,6 +2135,7 @@
 				F69BE1E121F212B60059C4B4 /* MineViewController.swift in Sources */,
 				F68CA5592270660B00B32DF0 /* CheckinCheckpointRequest.swift in Sources */,
 				F69BE1AC21F1BD0A0059C4B4 /* BaseViewController.swift in Sources */,
+				F69959F722B68F3E00B1B250 /* EquipmentCollectionViewCell.swift in Sources */,
 				F69BE1F721F2264B0059C4B4 /* SideMenuViewController.swift in Sources */,
 				F64FF0B922238C3D00558695 /* SetEmailData.swift in Sources */,
 				F620755C22712741007EA6C5 /* RouteTableViewCell.swift in Sources */,
@@ -2015,12 +2166,15 @@
 				F6A86AA72271FD2A00B04695 /* MTQQTrackingMap.swift in Sources */,
 				F61193B4222C374C000DD5A8 /* TrackMapsModel.swift in Sources */,
 				F61193A9222C2E4F000DD5A8 /* DetailActivityModel.swift in Sources */,
+				F6995A1E22B6AA5100B1B250 /* AllListParticipation.swift in Sources */,
 				F66FEC602201F7F2008F5585 /* ForgotPasswordViewController.swift in Sources */,
 				F68CA564227066B200B32DF0 /* StopTrackingResponse.swift in Sources */,
 				F68CA548227065C400B32DF0 /* ListCheckpointData.swift in Sources */,
 				F6850599226D5EC3002DF59C /* DetailProfileViewModel.swift in Sources */,
 				F6DEFE05226DDFFB00C79235 /* FriendEventsViewController.swift in Sources */,
+				F68747BD22BF72090054E8D5 /* EventRegisteredCoordinator.swift in Sources */,
 				F6F13835220BD5B6005E8E21 /* Response.swift in Sources */,
+				F68747D222BFE3530054E8D5 /* DetailEventData.swift in Sources */,
 				F68505AB226D8CB5002DF59C /* MemberActivityListOthersRequest.swift in Sources */,
 				F647E4FC22389D7D0096EB4C /* ProfileEventModel.swift in Sources */,
 				F6DEFDFA226DDFE800C79235 /* FriendActivityCoordinator.swift in Sources */,
@@ -2030,24 +2184,32 @@
 				F6DB6467220975DC00FB1162 /* EventsTableViewCell.swift in Sources */,
 				F6D0A6C1226CB8D3007BEFF7 /* MemberJoinActivityListRequest.swift in Sources */,
 				F6207562227147B2007EA6C5 /* ListGroupChatRequest.swift in Sources */,
+				F6995A0022B6A49C00B1B250 /* AllListEventResponse.swift in Sources */,
 				F69BE1A521F1BC9D0059C4B4 /* HomeModel.swift in Sources */,
+				F6995A0C22B6A56300B1B250 /* ThisMonthListEventResponse.swift in Sources */,
 				F6CDD54E2299AD3F00916C4D /* GPX.swift in Sources */,
 				F6082EDB22212AD600C6C9C6 /* EditProfileViewModel.swift in Sources */,
 				F69BE20121F229F50059C4B4 /* NotificationsCoordinator.swift in Sources */,
+				F6995A1322B6A57600B1B250 /* RegisteredListEventRequest.swift in Sources */,
+				F68747C022BF72090054E8D5 /* EventRegisteredViewModel.swift in Sources */,
 				F6DEFDF4226DDCBC00C79235 /* ActivityPhotoData.swift in Sources */,
 				F6BFF7A1226E233200FD0DAE /* ListLikeActivityData.swift in Sources */,
+				F6995A1A22B6AA3100B1B250 /* AllListEventPackages.swift in Sources */,
 				F6F8D3BB222CBE6A004B8472 /* DetailActivityResponse.swift in Sources */,
 				F6DB645822091BFA00FB1162 /* OTPViewModel.swift in Sources */,
 				F6F13839220BD602005E8E21 /* Single.swift in Sources */,
 				F6F13837220BD5EB005E8E21 /* ObservableType.swift in Sources */,
 				F646931221F397A00075756E /* ActivityViewModel.swift in Sources */,
 				F6BFF7B2226E340800FD0DAE /* UserCommentTableViewCell.swift in Sources */,
+				F69959E822B6861C00B1B250 /* DetailEventCoordinator.swift in Sources */,
+				F68747C822BF89970054E8D5 /* SearchEventsCoordinator.swift in Sources */,
 				F64FF0D022238C6A00558695 /* UpdatePhotoRequest.swift in Sources */,
 				F69BE1C121F1BF490059C4B4 /* PrimitiveSequance+Scheduler.swift in Sources */,
 				F69BE1F621F2264B0059C4B4 /* SideMenuCoordinator.swift in Sources */,
 				F68505BC226DA541002DF59C /* TrackChatViewController.swift in Sources */,
 				F6DEFDFD226DDFE800C79235 /* FriendActivityViewModel.swift in Sources */,
 				F69BE1B021F1BD880059C4B4 /* BaseTableViewCell.swift in Sources */,
+				F69959F322B68B1E00B1B250 /* DetailEventCollectionViewCell.swift in Sources */,
 				F6BFF798226E20CA00FD0DAE /* LikeActivityViewController.swift in Sources */,
 				F6BFF7C1226E41F000FD0DAE /* CommentActivityResponse.swift in Sources */,
 				F6D0A6B2226C8C8B007BEFF7 /* DetailBeforeJoinActivityResponse.swift in Sources */,
@@ -2055,15 +2217,18 @@
 				F6BFF797226E20CA00FD0DAE /* LikeActivityCoordinator.swift in Sources */,
 				F646930421F394510075756E /* WebViewCoordinator.swift in Sources */,
 				F6FC6B4B2236047700A2085C /* CheckpointCoordinator.swift in Sources */,
+				F6995A0122B6A49C00B1B250 /* AllListEventRequest.swift in Sources */,
 				F6DEFE07226DDFFB00C79235 /* FriendEventsViewModel.swift in Sources */,
 				F68CA56F227073A700B32DF0 /* NearbyTableViewCell.swift in Sources */,
 				F6A206CF226ECD9400F65163 /* ListPhotoActivityResponse.swift in Sources */,
+				F6995A0E22B6A56300B1B250 /* ThisMonthListEventData.swift in Sources */,
 				F64FF0B322238C3200558695 /* SetUsernameData.swift in Sources */,
 				F64692FC21F38F8C0075756E /* StandartTableViewCell.swift in Sources */,
 				F6E5C6C4221C3D0800756C8E /* DefaultKeys.swift in Sources */,
 				F68505AE226D8CD6002DF59C /* MemberActivityListOthersList.swift in Sources */,
 				F69BE1E021F212B60059C4B4 /* MineCoordinator.swift in Sources */,
 				F66FEC5F2201F7F2008F5585 /* ForgotPasswordCoordinator.swift in Sources */,
+				F68747BE22BF72090054E8D5 /* EventRegisteredViewController.swift in Sources */,
 				F64692F421F38D490075756E /* StandartViewModel.swift in Sources */,
 				F68505BE226DA541002DF59C /* TrackChatViewModel.swift in Sources */,
 				F69BE20321F229F50059C4B4 /* NotificationsModel.swift in Sources */,
@@ -2071,6 +2236,7 @@
 				F6FC6B412236046E00A2085C /* RouteCoordinator.swift in Sources */,
 				F6F8D3BD222CBE6A004B8472 /* DetailActivityData.swift in Sources */,
 				F6D1756F21F2334500821FB4 /* UICollectionView.swift in Sources */,
+				F68747B522BF71FC0054E8D5 /* EventThisMonthModel.swift in Sources */,
 				F69BE1E221F212B60059C4B4 /* MineModel.swift in Sources */,
 				F647E4F322389D120096EB4C /* ProfileModel.swift in Sources */,
 				F64FF0C522238C5700558695 /* SetPhoneData.swift in Sources */,
@@ -2086,11 +2252,14 @@
 				F69C95912201438000D96F02 /* RegisterViewController.swift in Sources */,
 				F64F2240226B2C7300D116D8 /* ActivityListOthersRequest.swift in Sources */,
 				F646930621F394510075756E /* WebViewModel.swift in Sources */,
+				F69959EA22B6861C00B1B250 /* DetailEventModel.swift in Sources */,
 				F68505BB226DA541002DF59C /* TrackChatCoordinator.swift in Sources */,
+				F68747B322BF71FC0054E8D5 /* EventThisMonthCoordinator.swift in Sources */,
 				F6FB64BA221BA06B00D5A1C5 /* RequestOTPData.swift in Sources */,
 				F6FC6B422236046E00A2085C /* RouteViewController.swift in Sources */,
 				F6BFF7AB226E2ABB00FD0DAE /* UserDislikeActivityResponse.swift in Sources */,
 				F64693DF2268D950001238B9 /* LoginGoogleData.swift in Sources */,
+				F68747B422BF71FC0054E8D5 /* EventThisMonthViewController.swift in Sources */,
 				F68505AA226D8CB5002DF59C /* MemberActivityListOthersResponse.swift in Sources */,
 				F6D0A6D2226CD223007BEFF7 /* CommentViewModel.swift in Sources */,
 				F6FB64BC221BA07300D5A1C5 /* RequestOTPResponse.swift in Sources */,
@@ -2106,12 +2275,15 @@
 				F6D0A6B9226C93C2007BEFF7 /* MemberActivityListRequest.swift in Sources */,
 				F6F13833220BD267005E8E21 /* LoginResponse.swift in Sources */,
 				F68505B2226D9136002DF59C /* ApproveMemberActivityResponse.swift in Sources */,
+				F68747BF22BF72090054E8D5 /* EventRegisteredModel.swift in Sources */,
 				F647E4FA22389D7D0096EB4C /* ProfileEventCoordinator.swift in Sources */,
 				F64FF0BF22238C4E00558695 /* SetPasswordData.swift in Sources */,
 				F60A8A4F21F31F5500952ADD /* PopupCodeViewController.swift in Sources */,
 				F646931021F397A00075756E /* ActivityViewController.swift in Sources */,
 				F6D1757121F2342E00821FB4 /* BaseCollectionViewCell.swift in Sources */,
+				F69959FB22B6902100B1B250 /* DetailEquipmentViewController.swift in Sources */,
 				F61193AA222C2E4F000DD5A8 /* DetailActivityViewModel.swift in Sources */,
+				F68747D122BFE3530054E8D5 /* DetailEventRequest.swift in Sources */,
 				F68CA560227066A900B32DF0 /* StartTrackingData.swift in Sources */,
 				F69BE1EB21F212C60059C4B4 /* OthersCoordinator.swift in Sources */,
 				F69C95852201376900D96F02 /* LoginCoordinator.swift in Sources */,
@@ -2127,6 +2299,7 @@
 				F6637F34226F661400F9B1BF /* UploadPhotoViewController.swift in Sources */,
 				F68CA5582270660B00B32DF0 /* CheckinCheckpointResponse.swift in Sources */,
 				F6E5C6C0221C3BEA00756C8E /* Profile.swift in Sources */,
+				F6995A1422B6A57600B1B250 /* RegisteredListEventData.swift in Sources */,
 				F68CA566227066B200B32DF0 /* StopTrackingData.swift in Sources */,
 				F6FC6B4D2236047700A2085C /* CheckpointModel.swift in Sources */,
 				F6A1CD0C229D104900E6E259 /* ImportRouteResponse.swift in Sources */,
@@ -2162,6 +2335,7 @@
 				F6D0A6AE226C5AE5007BEFF7 /* DetailActivityRoute.swift in Sources */,
 				F6FC6B3A2236046700A2085C /* NearbyViewModel.swift in Sources */,
 				F6207561227147B2007EA6C5 /* ListGroupChatResponse.swift in Sources */,
+				F6E23F6022C0712900083F40 /* PackagesEquipment.swift in Sources */,
 				F64FF0A122238ADA00558695 /* LogoutData.swift in Sources */,
 				F6DEFDFC226DDFE800C79235 /* FriendActivityModel.swift in Sources */,
 				F69BE1B421F1BDBD0059C4B4 /* EmptyTableViewCell.swift in Sources */,
@@ -2171,6 +2345,7 @@
 				F6F8D3BC222CBE6A004B8472 /* DetailActivityRequest.swift in Sources */,
 				F64FF0AB22238C2100558695 /* NewPasswordResponse.swift in Sources */,
 				F6FB64C0221BA20E00D5A1C5 /* ConfirmOTPRequest.swift in Sources */,
+				F6995A1222B6A57600B1B250 /* RegisteredListEventResponse.swift in Sources */,
 				F6DB6463220975D100FB1162 /* EventsViewModel.swift in Sources */,
 				F6AD1CE32226203A0079111B /* Date.swift in Sources */,
 				F68505AC226D8CB5002DF59C /* MemberActivityListOthersData.swift in Sources */,
@@ -2179,6 +2354,7 @@
 				F6DEFDF0226DD12A00C79235 /* FriendActivityData.swift in Sources */,
 				F6E5C6C6221C3D4200756C8E /* SocialProfile.swift in Sources */,
 				F647E4F422389D120096EB4C /* ProfileViewModel.swift in Sources */,
+				F68747B622BF71FC0054E8D5 /* EventThisMonthViewModel.swift in Sources */,
 				F695A419226F1B69006EEF17 /* DeletePhotoActivityRequest.swift in Sources */,
 				F64FF0D722238C7400558695 /* UpdateProfileData.swift in Sources */,
 				F69BE20721F22CDF0059C4B4 /* UIViewController+TitleNavigation.swift in Sources */,
@@ -2190,7 +2366,9 @@
 				F6A8ADC52292EB9400433E7B /* DetailForgotPasswordCoordinator.swift in Sources */,
 				F69BE1CC21F1BFBE0059C4B4 /* UIView+Nib.swift in Sources */,
 				F6A206C5226EC0D800F65163 /* PhotoActivityModel.swift in Sources */,
+				F6995A0D22B6A56300B1B250 /* ThisMonthListEventRequest.swift in Sources */,
 				F647E4FB22389D7D0096EB4C /* ProfileEventViewController.swift in Sources */,
+				F68747CA22BF89970054E8D5 /* SearchEventsModel.swift in Sources */,
 				F6FC6B442236046E00A2085C /* RouteViewModel.swift in Sources */,
 				F64FF0C422238C5700558695 /* SetPhoneRequest.swift in Sources */,
 				F6BFF7BC226E3A5B00FD0DAE /* ListCommentActivityRequest.swift in Sources */,
@@ -2264,7 +2442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -2319,7 +2497,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -2338,7 +2516,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XS27FZ6B87;
 				INFOPLIST_FILE = Lacakin/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2359,7 +2537,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XS27FZ6B87;
 				INFOPLIST_FILE = Lacakin/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

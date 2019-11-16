@@ -17,7 +17,7 @@ import GoogleSignIn
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+//We use your location to find places near you
 
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions

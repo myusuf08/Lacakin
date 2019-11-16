@@ -14,17 +14,17 @@ PODS:
     - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
     - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
     - GTMSessionFetcher/Core (~> 1.1)
-  - GoogleToolboxForMac/DebugUtils (2.2.0):
-    - GoogleToolboxForMac/Defines (= 2.2.0)
-  - GoogleToolboxForMac/Defines (2.2.0)
-  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.0)":
-    - GoogleToolboxForMac/DebugUtils (= 2.2.0)
-    - GoogleToolboxForMac/Defines (= 2.2.0)
-    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.0)"
-  - "GoogleToolboxForMac/NSString+URLArguments (2.2.0)"
+  - GoogleToolboxForMac/DebugUtils (2.2.2):
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - GoogleToolboxForMac/Defines (2.2.2)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.2)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.2)
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.2)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.2)"
   - GrowingTextView (0.6.1)
   - GSImageViewerController (1.6.0)
-  - GTMSessionFetcher/Core (1.2.1)
+  - GTMSessionFetcher/Core (1.3.0)
   - IQKeyboardManagerSwift (6.2.1)
   - Kingfisher (5.3.1)
   - KYDrawerController (2.1.0)
@@ -49,25 +49,25 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.8.1)
-  - CocoaMQTT
-  - GoogleMaps
-  - GooglePlaces
-  - GoogleSignIn
+  - CocoaMQTT (= 1.1.3)
+  - GoogleMaps (= 3.1.0)
+  - GooglePlaces (= 3.1.0)
+  - GoogleSignIn (= 4.4.0)
   - GrowingTextView (= 0.6.1)
-  - GSImageViewerController
-  - IQKeyboardManagerSwift
-  - Kingfisher
+  - GSImageViewerController (= 1.6.0)
+  - IQKeyboardManagerSwift (= 6.2.1)
+  - Kingfisher (= 5.3.1)
   - KYDrawerController
   - Moya/RxSwift (~> 12.0.1)
-  - NotificationView
+  - NotificationView (= 0.2.0)
   - Polyline (~> 4.0)
-  - RealmSwift
+  - RealmSwift (= 3.14.1)
   - RxCocoa (~> 4.0)
   - RxSwift (~> 4.0)
   - SwiftyUserDefaults (= 4.0.0-alpha.2)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Alamofire
     - CocoaAsyncSocket
     - CocoaMQTT
@@ -98,10 +98,10 @@ SPEC CHECKSUMS:
   GoogleMaps: 5c13302e6fe6bb6e686b267196586b91cd594225
   GooglePlaces: e874db179f2675c4f3eeda0b686b540273a578b0
   GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
-  GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
+  GoogleToolboxForMac: 800648f8b3127618c1b59c7f97684427630c5ea3
   GrowingTextView: 335aefa45df7df06b01edede1363414d6ee5d6bc
   GSImageViewerController: 397f8954afac8bd1c3a75c630e3c4ab4c4a4dfe3
-  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  GTMSessionFetcher: 43b8b64263023d4f32caa0b40f4c8bfa3c5f36d8
   IQKeyboardManagerSwift: 0f0ae8935360b4003e6ea1ac7c19898f01e2f7c7
   Kingfisher: d9e7e0b209b59b8f9873aa2f37654e81a7beea51
   KYDrawerController: baad0e63b09c0cb564bd48f0f7f70f45d9176ebc
@@ -115,6 +115,6 @@ SPEC CHECKSUMS:
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   SwiftyUserDefaults: f4b2b375134ead8646eba62e5e1d6271068f75f0
 
-PODFILE CHECKSUM: 4d116a747b6e27bb9d051fbb6444b168dd5b7946
+PODFILE CHECKSUM: 9766353c2f98e75b1379f391e49c05d4bc128b45
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.8.3

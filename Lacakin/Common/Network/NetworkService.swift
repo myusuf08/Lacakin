@@ -71,6 +71,10 @@ public enum LacakinApi {
     case checkinCheckpoint(CheckinCheckpointRequest)
     case listGroupChat(ListGroupChatRequest)
     case importRoute(ImportRouteRequest)
+    case allListEvent(AllListEventRequest)
+    case thisMonthListEvent(ThisMonthListEventRequest)
+    case registeredListEvent(RegisteredListEventRequest)
+    case detailEvent(DetailEventRequest)
 }
 
 extension LacakinApi: TargetType, AccessTokenAuthorizable {
@@ -123,14 +127,18 @@ extension LacakinApi: TargetType, AccessTokenAuthorizable {
         case .listNearby(let request): return "/activity/nearby/\(request.code ?? "")"
         case .checkinCheckpoint: return "/activity/cekin/cp"
         case .listGroupChat(let request): return "/chat/msg/group/\(request.code ?? "")"
-        case .importRoute(let request): return "/import/route"
+        case .importRoute: return "/import/route"
+        case .allListEvent: return "/event/explore"
+        case .thisMonthListEvent: return "/event/thismonth"
+        case .registeredListEvent: return "/event/participation"
+        case .detailEvent(let request): return "/event/detail/\(request.eventId ?? "")"
         }
     }
     
     public var method: Moya.Method {
         switch self {
         case .activityList, .activityListOthers, .getProfile, .detailActivity, .detailJoinActivity , .detailBeforeJoinActivity, .memberActivityList, .memberJoinActivityList, .memberActivityListOthers, .friendProfile ,
-             .friendActivity, .getProfile, .listLikeActivity, .listCommentActivity ,.listPhotoActivity, .listRoute, .listCheckpoint, .listNearby, .listGroupChat, .logout:
+             .friendActivity, .getProfile, .listLikeActivity, .listCommentActivity ,.listPhotoActivity, .listRoute, .listCheckpoint, .listNearby, .listGroupChat, .logout , .allListEvent, .thisMonthListEvent, .registeredListEvent, .detailEvent:
             return .get
         default:
             return .post
@@ -233,6 +241,14 @@ extension LacakinApi: TargetType, AccessTokenAuthorizable {
             return urlEncodedTask(parameters: request.dictionary ?? [:])
         case .importRoute(let request):
             return jsonEncodedTask(parameters: request.dictionary ?? [:])
+        case .allListEvent(let request):
+            return urlEncodedTask(parameters: request.dictionary ?? [:])
+        case .thisMonthListEvent(let request):
+            return urlEncodedTask(parameters: request.dictionary ?? [:])
+        case .registeredListEvent(let request):
+            return urlEncodedTask(parameters: request.dictionary ?? [:])
+        case .detailEvent(let request):
+            return .requestPlain
         }
     }
     

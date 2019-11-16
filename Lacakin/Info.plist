@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Lacakin</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -15,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.8</string>
+	<string>1.0.9</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -28,9 +30,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>3</string>
-	<key>ITSAppUsesNonExemptEncryption</key>
-	<false/>
+	<string>30</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>googlechromes</string>
@@ -48,7 +48,7 @@
 	<key>NSCameraUsageDescription</key>
 	<string>This app requires access to the camera.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>We use your location to find places near you</string>
+	<string></string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>This app requires access to the photo library</string>
 	<key>UIFileSharingEnabled</key>

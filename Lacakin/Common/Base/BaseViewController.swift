@@ -167,8 +167,8 @@ extension BaseViewController {
     }
     
     func subscribeNotification() {
-        let topic = "lacakin/notify/\(User.shared.profile?.userId ?? "")"
-        MQTTManager.shared.subscribeTopicOne(topic: topic)
+//        let topic = "lacakin/notify/\(User.shared.profile?.userId ?? "")"
+//        MQTTManager.shared.subscribeTopicOne(topic: topic)
     }
 //
 //    func establishConnection() {
