@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="DetailEventCollectionViewCell" customModule="Lacakin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="128"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="128"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="61d-Dz-Rco">
+                        <rect key="frame" x="5" y="5" width="140" height="118"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paket Berbayar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y2I-VY-VhY">
+                        <rect key="frame" x="10" y="16" width="130" height="16"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bayar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FiX-F9-mD2">
+                        <rect key="frame" x="10" y="37" width="130" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50K" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7r-GR-LjY">
+                        <rect key="frame" x="10" y="56.5" width="130" height="36"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                        <color key="textColor" red="0.0" green="0.71372549019999998" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quota: 50 People" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1I-rq-pTg">
+                        <rect key="frame" x="10" y="97.5" width="130" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="61d-Dz-Rco" secondAttribute="trailing" constant="5" id="3GB-mt-dL1"/>
+                <constraint firstItem="c1I-rq-pTg" firstAttribute="trailing" secondItem="E7r-GR-LjY" secondAttribute="trailing" id="7BM-dC-K81"/>
+                <constraint firstItem="FiX-F9-mD2" firstAttribute="leading" secondItem="Y2I-VY-VhY" secondAttribute="leading" id="8Zg-3B-f13"/>
+                <constraint firstAttribute="bottom" secondItem="61d-Dz-Rco" secondAttribute="bottom" constant="5" id="A1i-Oc-vYW"/>
+                <constraint firstItem="c1I-rq-pTg" firstAttribute="leading" secondItem="E7r-GR-LjY" secondAttribute="leading" id="DoL-eI-vMP"/>
+                <constraint firstItem="Y2I-VY-VhY" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="GtQ-4C-0lz"/>
+                <constraint firstItem="61d-Dz-Rco" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="H4x-B9-aHf"/>
+                <constraint firstItem="E7r-GR-LjY" firstAttribute="leading" secondItem="Y2I-VY-VhY" secondAttribute="leading" id="IGF-bR-gTt"/>
+                <constraint firstItem="E7r-GR-LjY" firstAttribute="trailing" secondItem="Y2I-VY-VhY" secondAttribute="trailing" id="Qh5-v0-5ZX"/>
+                <constraint firstItem="c1I-rq-pTg" firstAttribute="top" secondItem="E7r-GR-LjY" secondAttribute="bottom" constant="5" id="SVu-2k-v4c"/>
+                <constraint firstItem="E7r-GR-LjY" firstAttribute="top" secondItem="FiX-F9-mD2" secondAttribute="bottom" constant="5" id="XC3-tH-YUj"/>
+                <constraint firstItem="FiX-F9-mD2" firstAttribute="trailing" secondItem="Y2I-VY-VhY" secondAttribute="trailing" id="dfH-Zb-Vdg"/>
+                <constraint firstItem="Y2I-VY-VhY" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="16" id="g26-XW-66x"/>
+                <constraint firstAttribute="trailing" secondItem="Y2I-VY-VhY" secondAttribute="trailing" constant="10" id="ioH-uZ-z1j"/>
+                <constraint firstItem="FiX-F9-mD2" firstAttribute="top" secondItem="Y2I-VY-VhY" secondAttribute="bottom" constant="5" id="uMt-iG-IqI"/>
+                <constraint firstItem="61d-Dz-Rco" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="w4l-4Z-d6s"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="189" height="92"/>
+            <connections>
+                <outlet property="bgView" destination="61d-Dz-Rco" id="idm-aO-55x"/>
+                <outlet property="descLabel" destination="FiX-F9-mD2" id="ut8-Qr-kRz"/>
+                <outlet property="priceLabel" destination="E7r-GR-LjY" id="BAC-VM-em8"/>
+                <outlet property="quotaLabel" destination="c1I-rq-pTg" id="H7K-Xl-xKR"/>
+                <outlet property="titleLabel" destination="Y2I-VY-VhY" id="H3J-zg-z7d"/>
+            </connections>
+            <point key="canvasLocation" x="238.40579710144928" y="156.02678571428569"/>
+        </collectionViewCell>
+    </objects>
+</document>

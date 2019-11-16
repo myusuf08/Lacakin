@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EventThisMonthViewController" customModule="Lacakin" customModuleProvider="target">
+            <connections>
+                <outlet property="emptyLabel" destination="bma-J7-Xyh" id="FGp-Hx-Zyf"/>
+                <outlet property="tableView" destination="nIs-QV-TMi" id="hQR-mo-Nwp"/>
+                <outlet property="view" destination="dFh-57-eAN" id="BWB-AS-aN4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="dFh-57-eAN">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bma-J7-Xyh">
+                    <rect key="frame" x="207" y="448" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nIs-QV-TMi">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="nIs-QV-TMi" secondAttribute="trailing" id="F1R-jF-FID"/>
+                <constraint firstAttribute="bottom" secondItem="nIs-QV-TMi" secondAttribute="bottom" id="Fwh-Ht-Ib8"/>
+                <constraint firstItem="nIs-QV-TMi" firstAttribute="leading" secondItem="dFh-57-eAN" secondAttribute="leading" id="W8V-EV-IGx"/>
+                <constraint firstItem="bma-J7-Xyh" firstAttribute="centerX" secondItem="dFh-57-eAN" secondAttribute="centerX" id="eFz-OF-ABa"/>
+                <constraint firstItem="nIs-QV-TMi" firstAttribute="top" secondItem="dFh-57-eAN" secondAttribute="top" id="oIx-3e-pyk"/>
+                <constraint firstItem="bma-J7-Xyh" firstAttribute="centerY" secondItem="dFh-57-eAN" secondAttribute="centerY" id="w07-4j-vPh"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+</document>
